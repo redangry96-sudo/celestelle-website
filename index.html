@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#552d45">
+    <meta name="description"
+      content="Explore Celestelle jewellery collections. Discover necklaces, rings, earrings, bracelets and pendants.">
+
+    <title>Celestelle Jewellery | Timeless Elegance</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+      ✧ Free shipping on selected orders
+      <span>|</span>
+      Discover your next favourite piece
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+      <a href="#home" class="brand">
+        <img src="assets/celestelle-logo.png" alt="Celestelle Logo">
+
+        <span class="brand-text">
+          <strong>CELESTELLE</strong>
+          <small>JEWELLERY</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <button id="searchOpen" aria-label="Search">
+          ⌕
+        </button>
+
+        <a href="#wishlist" aria-label="Wishlist">
+          ♡
+        </a>
+
+        <button id="cartOpen" aria-label="Shopping bag">
+          ♧ <span id="cartCount">0</span>
+        </button>
+
+      </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main id="app">
+
+      <!-- HOME PAGE -->
+      <section class="hero">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            CRAFTED TO CELEBRATE YOU
+          </span>
+
+          <h1>
+            Timeless Elegance.
+            <em>Forever You.</em>
+          </h1>
+
+          <p>
+            Discover exquisite jewellery that brings
+            beautiful traditions together with modern elegance.
+            Find the perfect piece for every special moment.
+          </p>
+
+          <a href="#collections" class="primary-btn">
+            EXPLORE COLLECTIONS →
+          </a>
+
+          <div class="hero-features">
+
+            <span>✧ Carefully Selected</span>
+            <span>♡ Beautiful Details</span>
+            <span>◇ Customer Care</span>
+
+          </div>
+
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-image-note">
+            <span>THE CELESTELLE EDIT</span>
+            <strong>Made to make you shine.</strong>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="benefits">
+
+        <div class="benefit">
+          <span>◇</span>
+          <div>
+            <strong>Thoughtful Details</strong>
+            <small>Pieces selected with care</small>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <span>♡</span>
+          <div>
+            <strong>Beautiful Collections</strong>
+            <small>Styles for every occasion</small>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <span>✧</span>
+          <div>
+            <strong>Customer Support</strong>
+            <small>Here to help you</small>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- CATEGORIES -->
+      <section class="section categories-section" id="categories">
+
+        <div class="section-heading">
+          <span class="eyebrow">EXPLORE OUR WORLD</span>
+          <h2>Find Your Perfect Piece</h2>
+          <p>Discover jewellery that matches your personality.</p>
+        </div>
+
+        <div class="category-grid">
+
+          <a href="#collections?category=Necklaces" class="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=85"
+              alt="Necklaces">
+            <h3>Necklaces</h3>
+            <span>Explore More →</span>
+          </a>
+
+          <a href="#collections?category=Earrings" class="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=85"
+              alt="Earrings">
+            <h3>Earrings</h3>
+            <span>Explore More →</span>
+          </a>
+
+          <a href="#collections?category=Rings" class="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&q=85"
+              alt="Rings">
+            <h3>Rings</h3>
+            <span>Explore More →</span>
+          </a>
+
+          <a href="#collections?category=Bracelets" class="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=85"
+              alt="Bracelets">
+            <h3>Bracelets</h3>
+            <span>Explore More →</span>
+          </a>
+
+          <a href="#collections?category=Pendants" class="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=85"
+              alt="Pendants">
+            <h3>Pendants</h3>
+            <span>Explore More →</span>
+          </a>
+
+        </div>
+
+      </section>
+
+      <!-- FEATURED PRODUCTS -->
+      <section class="section featured-section">
+
+        <div class="section-top">
+
+          <div class="section-heading left-heading">
+            <span class="eyebrow">OUR BESTSELLERS</span>
+            <h2>Handpicked For You</h2>
+            <p>Discover the pieces everyone loves.</p>
+          </div>
+
+          <a href="#collections" class="text-link">
+            VIEW ALL PRODUCTS →
+          </a>
+
+        </div>
+
+        <div class="product-grid" id="featuredProducts">
+          <!-- Products generated through JavaScript -->
+        </div>
+
+      </section>
+
+      <!-- PROMOTIONAL BANNER -->
+      <section class="promo-banner">
+
+        <div class="promo-image"></div>
+
+        <div class="promo-content">
+
+          <span class="eyebrow">A LITTLE SOMETHING SPECIAL</span>
+
+          <h2>
+            Beauty Is In
+            <em>Every Detail.</em>
+          </h2>
+
+          <p>
+            Jewellery is more than an accessory.
+            It is a beautiful way to express your style,
+            celebrate your story and create memories.
+          </p>
+
+          <a href="#about" class="primary-btn">
+            DISCOVER OUR STORY →
+          </a>
+
+        </div>
+
+      </section>
+
+      <!-- TRUST SECTION -->
+      <section class="section trust-section">
+
+        <div class="section-heading">
+          <span class="eyebrow">THE CELESTELLE PROMISE</span>
+          <h2>A Little More To Love</h2>
+        </div>
+
+        <div class="trust-grid">
+
+          <div class="trust-card">
+            <span>✧</span>
+            <h3>Curated With Care</h3>
+            <p>
+              Explore carefully selected jewellery
+              with beautiful details.
+            </p>
+          </div>
+
+          <div class="trust-card">
+            <span>♡</span>
+            <h3>Perfect For Gifting</h3>
+            <p>
+              Find thoughtful gifts for birthdays,
+              celebrations and special moments.
+            </p>
+          </div>
+
+          <div class="trust-card">
+            <span>◇</span>
+            <h3>Customer Support</h3>
+            <p>
+              Our team is here to assist you
+              with your shopping questions.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <a href="#home" class="brand">
+            <img src="assets/celestelle-logo.png" alt="Celestelle">
+
+            <span class="brand-text">
+              <strong>CELESTELLE</strong>
+              <small>JEWELLERY</small>
+            </span>
+          </a>
+
+          <p>
+            Thoughtful details, timeless sparkle.
+            Discover jewellery that makes every
+            moment feel special.
+          </p>
+
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="#collections">All Collections</a>
+          <a href="#collections?category=Necklaces">Necklaces</a>
+          <a href="#collections?category=Rings">Rings</a>
+          <a href="#collections?category=Earrings">Earrings</a>
+          <a href="#collections?category=Bracelets">Bracelets</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Customer Service</h3>
+          <a href="#contact">Contact Us</a>
+          <a href="#contact">Shipping Information</a>
+          <a href="#contact">Returns & Exchanges</a>
+          <a href="#contact">FAQs</a>
+        </div>
+
+        <div class="footer-newsletter">
+
+          <h3>Stay Connected</h3>
+
+          <p>
+            Subscribe to receive collection updates
+            and special announcements.
+          </p>
+
+          <form id="newsletterForm">
+            <input
+              type="email"
+              id="newsletterEmail"
+              placeholder="Enter your email"
+              aria-label="Email address"
+              required>
+
+            <button type="submit">JOIN →</button>
+          </form>
+
+          <small id="newsletterMessage"></small>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Celestelle Jewellery.</span>
+        <span>Made with love ✧</span>
+      </div>
+
+    </footer>
+
+    <!-- SEARCH MODAL -->
+    <div class="search-modal" id="searchModal">
+
+      <div class="search-box">
+
+        <div class="search-heading">
+          <h2>Find Your Perfect Piece</h2>
+          <button id="searchClose" aria-label="Close search">×</button>
+        </div>
+
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search jewellery...">
+
+        <div id="searchResults" class="search-results"></div>
+
+      </div>
+
+    </div>
+
+    <!-- CART OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- CART DRAWER -->
+    <aside class="cart-drawer" id="cartDrawer">
+
+      <div class="cart-header">
+        <h2>Your Shopping Bag</h2>
+        <button id="cartClose" aria-label="Close cart">×</button>
+      </div>
+
+      <div id="cartItems" class="cart-items">
+        <!-- Cart products generated by JavaScript -->
+      </div>
+
+      <div id="cartFooter" class="cart-footer"></div>
+
+    </aside>
+
+    <!-- TOAST MESSAGE -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
